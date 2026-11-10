@@ -1,0 +1,20 @@
+[project]
+name = "fortmet"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fparser>=0.2.5",
+    "lizard>=1.25.1",
+]
+
+[project.scripts]
+fortmet = "fortmet.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

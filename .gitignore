@@ -1,0 +1,4 @@
+tsunami/
+.venv/
+fortmet-out/
+__pycache__/
